@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Ignore Smart Environment folder
+.smart-env
+
+# Ignore Obsidian system configurations and caches
+.obsidian/
+
+# Ignore local environment keys
+.env
+
+# Ignore python runtime files
+__pycache__/
+*.pyc
+
+# Ignore Gemini Scribe tracking and auto-generated expert templates
+.gemini-scribe/
+gemini-scribe-expert-prompts/
+example-expert.md
+scheduled-tasks-state.json
